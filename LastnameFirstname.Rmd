@@ -1,5 +1,5 @@
 ---
-author: "Firstname Lastname"
+author: "Robert Castaneda"
 title: "Title of your post"
 layout: post
 topic: "06"
@@ -35,11 +35,21 @@ Write a blog post addressing the questions:
 1. **Answer each of the following questions with at least 2-3 sentences.**
 
     1. **Summarize Roger Peng's outline for reproducibility in** *Biostatistics*. 
-    2. **What are Keiding's main criticisms of the proposal?**. 
-    3. **Which point in the commentaries speaks to you the most? Why?**
-    4. **How does Keiding respond to the commentary you picked. What are his main points in his response?**
+        Peng argues that we need a "minimum standard" for reproducibility when it comes to scientific studies. Sometimes there is just not enough time put in to make a study fully reproducible, and other times there is. This minimum standard can help us find a middle ground. He outlines standard practices, such as having a maincode source which dictates the overall analysis. This code should be able to be used by any editor to aquire the same results as the original investigator. This is what reproducibility is.
+   
+
+    3. **What are Keiding's main criticisms of the proposal?**. 
+        Keiding argues that there is a lot more behind the scenes that goes on than just the source code and the model chosen. Subject knowledge is needed to know why an analysis was chosen and how it works like it does. Simply inplementing reproducible code will not help any future investigator with this issue. He says that there is a much more complex inner-working bebind a statistical analysis and having reproducible code is not sufficient enough for a future analyzer.
+    
+    5. **Which point in the commentaries speaks to you the most? Why?**
+        I liked the commentary titled "The importance of independent academic statistical analysis." They talk about all the potential for misrepresentation of data in the health industry. This is especailly an industry which needs rock solid statistical analysis which is backed up by integrity. 
+    
+    7. **How does Keiding respond to the commentary you picked. What are his main points in his response?**
+        When Niels says "To draw substantive conclusions from a reanalysis without awareness of the prehistory is unprofessional and trivializes biostatistics." This was the strongest point to me because it really points out the flaw behind any so called reanalysis that someone thinks they can do because they have reproducible code. Any statistical analysis is so much more than the data and the code. It is understanding the inner workings of the subject at hand and how this particular analysis applies to that field and to that data. 
     
 2. **Describe your experience with a data intensive (collaborative) project. What are the most prominent issues with ensuring reproducibility of research results (focus on dta related aspects)? What would you do differently if you could go back in time?**
+    I worked on a data based project in undergrad with the baseball team of the university I attended. The team recently purchased all this data and did not know what to do with it so they turned to a team of professors and statistics students. I was lucky enough to be on the team. I feel as if the code we wrote was easily reproducible because we put everything into functions and even made an R shiny app to help any future collaborators navigate our analysis. I think the issues with any sort of reproducibility on this project would come down to the subject knowledge. If someone did not know much about baseball or what our intentions were with the project they would have a hard time applying our analysis to a new year of players. If I could do something differently I would have added on an entire documentation section that more so explained the thinking behind why we did what we did, and not just have the brute code.
+    
 
 
 Go to [https://github.com/Stat585-at-ISU/blog-2019](https://github.com/Stat585-at-ISU/blog-2019) for instructions about how to prepare and submit your blog post.
